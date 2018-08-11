@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(202, 230, 227);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(255, 255, 255);
+    animation: all .6s ease;
+}
+
+.bg-custom {
+    background: #2eaabb;
+}
+
+.navbar .container .nav i {
+    margin-right: 4px;
+}
+
+.dropdown-menu {
+    width: 100%;
+}
+
+.footer {
+    padding: 30px;
+    color: #ccc;
+    background-color: #222222;
+}
+
+.footer a {
+    color: #ccc;
+}
+
+.footer i {
+    color: #ccc;
+}
+
+.footer input {
+    height: 40px;
+    width: 190px;
+    padding: 5px;
+    border: none;
+    background-color: #ccc;
+    color: #000;
+}
+
+.footer .contact-foot i,
+.footer .about-foot i {
+    margin-right: 5px;
+}
+
+.footer .container a::selection,
+.footer .container p::selection,
+.footer .container h4::selection {
+    background: #dd6d6d;
+}
+
+.footer .container a::-moz-selection,
+.footer .container p::-moz-selection,
+.footer .container h4::-moz-selection {
+    background: #dd6d6d;
+}
+
+.footer .contact-foot a:hover,
+.footer .contact-foot i:hover,
+.footer .about-foot a:hover,
+.footer .about-foot i:hover {
+    text-decoration: underline;
+    color: rgb(236, 235, 235);
+    transition: all .3s ease;
+}
+
+.footer .contact-foot i:nth-child(1),
+.footer .contact-foot i:nth-child(2) {
+    text-decoration: none;
+    color: #ccc;
+}
+
+.footer .container.hold-footer .row .btn {
+    border: none;
+    border-radius: 0px 4px 4px 0px;
+    background: #1b9bc2;
+}
+
+.footer .container.hold-footer .row .btn:hover {
+    background: #20aeda;
+    transition: all .2s ease;
+}
+
+.footer .social-foot .social:hover {
+    border: 1px solid #ccc;
+    transform: scale(1.1);
+    transition: all .1s ease-in-out;
+}
+
+.footer .social {
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
